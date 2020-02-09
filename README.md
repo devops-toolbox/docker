@@ -8,10 +8,10 @@ docker
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.docker](https://galaxy.ansible.com/devops-toolbox.docker)
+[https://galaxy.ansible.com/devopstoolbox.docker](https://galaxy.ansible.com/devopstoolbox.docker)
 
 ```bash
-ansible-galaxy install devops-toolbox.docker
+ansible-galaxy install devopstoolbox.docker
 ```
 
 Requirements
@@ -49,7 +49,7 @@ Example Playbook
   tasks:
     - name: docker is configured
       import_role:
-        name: devops-toolbox.docker
+        name: devopstoolbox.docker
       vars:
         docker_remove_packages: true
         docker_enable_service: true
@@ -68,4 +68,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
